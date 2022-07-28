@@ -64,7 +64,7 @@ local function RippleEffect(object)
         Ripple.ScaleType = Enum.ScaleType.Fit
 
         Ripple.Position = UDim2.new((Mouse.X - Ripple.AbsolutePosition.X) / object.AbsoluteSize.X, 0, (Mouse.Y - Ripple.AbsolutePosition.Y) / object.AbsoluteSize.Y, 0)
-        TweenService:Create(Ripple, TweenInfo.new(1, Library.Theme.EasingStyle, Enum.EasingDirection.Out), {Position = UDim2.new(-5.5, 0, -5.5, 0), Size = UDim2.new(12, 0, 12, 0)}):Play()
+        TweenService:Create(Ripple, TweenInfo.new(1, Library.Theme.EasingStyle, Enum.EasingDirection.Out), {Position = UDim2.new(-5.5, 0, -5.5, 0), Size = UDim2.new(20, 0, 20, 0)}):Play()
 
         wait(0.5)
         TweenService:Create(Ripple, TweenInfo.new(1, Library.Theme.EasingStyle, Enum.EasingDirection.Out), {ImageTransparency = 1}):Play()
@@ -137,7 +137,7 @@ Main.Image = "rbxassetid://3570695787"
 Main.ImageColor3 = Library.Theme.BackgroundColor
 Main.ScaleType = Enum.ScaleType.Slice
 Main.SliceCenter = Rect.new(100, 100, 100, 100)
-Main.SliceScale = 0.70
+Main.SliceScale = 0.50
 
 Border.Name = "Border"
 Border.Parent = Main
@@ -149,7 +149,7 @@ Border.Image = "rbxassetid://3570695787"
 Border.ImageColor3 = Library.Theme.MainColor
 Border.ScaleType = Enum.ScaleType.Slice
 Border.SliceCenter = Rect.new(100, 100, 100, 100)
-Border.SliceScale = 0.60
+Border.SliceScale = 0.50
 Border.ImageTransparency = 1
 
 Topbar.Name = "Topbar"
