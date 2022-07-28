@@ -137,7 +137,7 @@ Main.Image = "rbxassetid://3570695787"
 Main.ImageColor3 = Library.Theme.BackgroundColor
 Main.ScaleType = Enum.ScaleType.Slice
 Main.SliceCenter = Rect.new(100, 100, 100, 100)
-Main.SliceScale = 0.300
+Main.SliceScale = 0.70
 
 Border.Name = "Border"
 Border.Parent = Main
