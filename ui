@@ -137,7 +137,7 @@ Main.Image = "rbxassetid://3570695787"
 Main.ImageColor3 = Library.Theme.BackgroundColor
 Main.ScaleType = Enum.ScaleType.Slice
 Main.SliceCenter = Rect.new(100, 100, 100, 100)
-Main.SliceScale = 0.150
+Main.SliceScale = 0.190
 
 Border.Name = "Border"
 Border.Parent = Main
@@ -149,7 +149,7 @@ Border.Image = "rbxassetid://3570695787"
 Border.ImageColor3 = Library.Theme.MainColor
 Border.ScaleType = Enum.ScaleType.Slice
 Border.SliceCenter = Rect.new(100, 100, 100, 100)
-Border.SliceScale = 0.250
+Border.SliceScale = 0.240
 Border.ImageTransparency = 1
 
 Topbar.Name = "Topbar"
@@ -308,7 +308,7 @@ function Library:CreateTab(name)
     Title.Font = Library.Theme.TextFont
     Title.Text =  name
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-    Title.TextSize = 18.000
+    Title.TextSize = 14.000
 
     SectionLayout.Name = "SectionLayout"
     SectionLayout.Parent = NameTab
