@@ -137,7 +137,7 @@ Main.Image = "rbxassetid://3570695787"
 Main.ImageColor3 = Library.Theme.BackgroundColor
 Main.ScaleType = Enum.ScaleType.Slice
 Main.SliceCenter = Rect.new(100, 100, 100, 100)
-Main.SliceScale = 0.50
+Main.SliceScale = 0.40
 
 Border.Name = "Border"
 Border.Parent = Main
@@ -149,14 +149,14 @@ Border.Image = "rbxassetid://3570695787"
 Border.ImageColor3 = Library.Theme.MainColor
 Border.ScaleType = Enum.ScaleType.Slice
 Border.SliceCenter = Rect.new(100, 100, 100, 100)
-Border.SliceScale = 0.50
+Border.SliceScale = 0.40
 Border.ImageTransparency = 1
 
 Topbar.Name = "Topbar"
 Topbar.Parent = Main
 Topbar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Topbar.BackgroundTransparency = 1.000
-Topbar.Size = UDim2.new(0, 450, 0, 15)
+Topbar.Size = UDim2.new(0, 450, 0, 150)
 Topbar.ZIndex = 2
 
 UITabs.Name = "UITabs"
