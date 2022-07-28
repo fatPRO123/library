@@ -137,7 +137,7 @@ Main.Image = "rbxassetid://3570695787"
 Main.ImageColor3 = Library.Theme.BackgroundColor
 Main.ScaleType = Enum.ScaleType.Slice
 Main.SliceCenter = Rect.new(100, 100, 100, 100)
-Main.SliceScale = 30.090
+Main.SliceScale = 0.150
 
 Border.Name = "Border"
 Border.Parent = Main
@@ -149,7 +149,7 @@ Border.Image = "rbxassetid://3570695787"
 Border.ImageColor3 = Library.Theme.MainColor
 Border.ScaleType = Enum.ScaleType.Slice
 Border.SliceCenter = Rect.new(100, 100, 100, 100)
-Border.SliceScale = 30.090
+Border.SliceScale = 0.090
 Border.ImageTransparency = 1
 
 Topbar.Name = "Topbar"
